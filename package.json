@@ -1,0 +1,59 @@
+{
+  "name": "@skyrocks/dsh-model-switcher",
+  "version": "0.2.1",
+  "description": "DeepSeek Harness plugin: 让模型自己查 / 切模型（find_models + switch_model），候选多于一个时列给用户选",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./match": "./match.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "match.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "test"
+  ],
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.2.1-rc.3 <0.3.0"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "author": "skyrocks (https://github.com/skyrocks)",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "host-plugin",
+    "model",
+    "model-switcher",
+    "tool",
+    "function-call"
+  ],
+  "scripts": {
+    "test": "node test/smoke.mjs",
+    "check": "node test/manifest.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyrocks/dsh-model-switcher.git"
+  },
+  "homepage": "https://github.com/skyrocks/dsh-model-switcher#readme",
+  "bugs": {
+    "url": "https://github.com/skyrocks/dsh-model-switcher/issues"
+  }
+}

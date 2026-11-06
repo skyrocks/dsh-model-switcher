@@ -1,0 +1,6 @@
+# dsh-model-switcher 插件行：作为 bundle patch 自动注入 profile 组合。
+# 安装后由 `dsh plugin add` 的 reconcile 步骤登记为 profile layer，无需手改用户层。
+# 没有可调参数：两个工具的行为完全由 DSH 自己的模型目录决定。
+- insert:
+    - id: model-switcher
+      name: "@skyrocks/dsh-model-switcher"

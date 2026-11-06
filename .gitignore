@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.tgz
+*.log
+.test-home/
+.probe/
+.idea/
+.vscode/
