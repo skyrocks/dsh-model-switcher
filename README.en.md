@@ -11,6 +11,7 @@ reinvent it, it only lets the model reach the same catalog and the same switchin
 ![dsh](https://img.shields.io/badge/DSH-0.2.1--rc.3%20line-4d6bfe)
 ![node](https://img.shields.io/badge/node-%3E%3D18-339933)
 ![dependencies](https://img.shields.io/badge/runtime%20deps-0-6bd586)
+[![CI](https://github.com/skyrocks/dsh-model-switcher/actions/workflows/ci.yml/badge.svg)](https://github.com/skyrocks/dsh-model-switcher/actions/workflows/ci.yml)
 
 ```text
 you: which models are cheap and fast?

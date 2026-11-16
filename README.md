@@ -10,6 +10,7 @@ function call，你在对话里说一句「换到 glm」就够了。手动选模
 ![dsh](https://img.shields.io/badge/DSH-0.2.1--rc.3%20line-4d6bfe)
 ![node](https://img.shields.io/badge/node-%3E%3D18-339933)
 ![dependencies](https://img.shields.io/badge/runtime%20deps-0-6bd586)
+[![CI](https://github.com/skyrocks/dsh-model-switcher/actions/workflows/ci.yml/badge.svg)](https://github.com/skyrocks/dsh-model-switcher/actions/workflows/ci.yml)
 
 ```text
 你：有哪些便宜又快的模型？
