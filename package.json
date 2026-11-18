@@ -1,6 +1,6 @@
 {
   "name": "@skyrocks/dsh-model-switcher",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "DeepSeek Harness plugin: 让模型自己查 / 切模型（find_models + switch_model），候选多于一个时列给用户选",
   "license": "MIT",
   "type": "module",
@@ -8,6 +8,8 @@
   "exports": {
     ".": "./index.js",
     "./match": "./match.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
     "./package.json": "./package.json"
   },
   "files": [
@@ -18,7 +20,8 @@
     "README.en.md",
     "CHANGELOG.md",
     "LICENSE",
-    "test"
+    "icon.svg",
+    "locale/*.json"
   ],
   "engines": {
     "node": ">=18",

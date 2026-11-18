@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "模型切换",
+    "description": "给模型用的两个工具：find_models 查当前会话真能选到的模型，switch_model 精确切换；同一模型有多个版本时会列出来让用户选。没有界面。"
+  }
+}

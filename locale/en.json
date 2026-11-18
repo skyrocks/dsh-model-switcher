@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model switcher",
+    "description": "Two model-callable tools: find_models lists what the session can actually switch to, switch_model applies an exact pick; several versions of one model are listed for the user instead of guessed. No UI."
+  }
+}
